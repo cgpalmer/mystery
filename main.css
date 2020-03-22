@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Special Elite", sans-serif;
+    background-color: #ffffe6;
+}
+.section-landing{
+    background-color: #ffffe6; 
+    display: block;   
+}
+.stamp {
+       background-image: url("stamp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin-right: 0;
+    padding-top: 10px;
+    margin-left: 80%;
+}
+
+.message-box {
+    border: 1px solid black;
+    margin-top: 34vh;
+    height: 32vh;
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.message-content {
+    margin-left: 40px;
+    text-align: left;
+}
+
+
+p.message {
+    display: inline-block;
+}
+
+.card {
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+.picture {
+    background-image: url("photo3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    margin-left: 39px;
+    width: 80%;   
+    margin-top: 40px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: colorchange 10s;
+    animation-iteration-count:infinite;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: colorchange2 10s;
+    animation-iteration-count:infinite;
+}
+
+ h3 {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: colorchange3 10s;
+    animation-iteration-count:infinite;
+}
+
+
+ @keyframes colorchange
+    {
+      0%   {color: black;}
+      12.5%  {color: red;}
+      25%  {color: orange;}
+      37.5%  {color: lightgreen;}
+      50%  {color: green;}
+      62.5% {color: blue;}
+      75% {color: purple;}
+      87.5% {color: red;}
+      100% {color: black;}
+    }
+
+@keyframes colorchange2
+    {
+      0%   {color: black;}
+      12.5%  {color: blue;}
+      25%  {color: purple;}
+      37.5%  {color: red;}
+      50%  {color: orange;}
+      62.5% {color: lightgreen;}
+      75% {color: green;}
+      87.5% {color: blue;}
+      100% {color: black;}
+    }
+
+@keyframes colorchange3
+     {
+      0%   {color: black;}
+      12.5%  {color: lightgreen;}
+      25%  {color: green;}
+      37.5%  {color: blue;}
+      50%  {color: purple;}
+      62.5% {color: red;}
+      75% {color: orange;}
+      87.5% {color: lightgreen;}
+      100% {color: black;}
+    }
